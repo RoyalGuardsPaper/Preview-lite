@@ -1,4 +1,4 @@
-# Preview Lite
+# Preview Lite (TEMPORARY unbuilt version)
 
 Preview Lite is a small, offline-first PDF and image viewer for Linux. It uses Rust, GTK 4, Libadwaita, Poppler, and GdkPixbuf. It opens files directly from local storage and contains no account, telemetry, cloud, or network features.
 
@@ -52,6 +52,9 @@ This project is licensed under GNU GPL version 3 or (at your option) any later v
 - This is the Phase 1 viewer only. Page editing, markup, OCR, printing, scanning, and image editing are not implemented.
 - SVG, HEIF/HEIC, and other less common image formats depend on optional system image loaders.
 - It targets Linux with GTK 4 and Poppler GLib installed. A build and runtime check require a Linux GTK development environment.
+
+## AI usage
+The app was made almost entirely using Codex, and while I'm not proud of it, and am learning rust as I go, this is how it is for the time being.
 
 ## Contributing
 
